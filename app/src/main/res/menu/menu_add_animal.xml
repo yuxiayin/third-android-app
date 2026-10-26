@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/add_animal">
+        <menu>
+            <item android:id="@+id/add_lion" android:title="@string/lion" />
+            <item android:id="@+id/add_tiger" android:title="@string/tiger" />
+            <item android:id="@+id/add_monkey" android:title="@string/monkey" />
+            <item android:id="@+id/add_dog" android:title="@string/dog" />
+            <item android:id="@+id/add_cat" android:title="@string/cat" />
+            <item android:id="@+id/add_elephant" android:title="@string/elephant" />
+        </menu>
+    </item>
+</menu>
