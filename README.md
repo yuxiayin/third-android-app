@@ -337,37 +337,37 @@ app/build/outputs/apk/debug/app-debug.apk
 
 应用启动后显示实验主页面，页面中有五个按钮。单击任意按钮可以进入对应的小实验页面，按系统返回键可以回到主页面。
 
-![main-page](doc\img\main-page.png)
+![main-page](doc/img/main-page.png)
 
 #### 2. SimpleAdapter ListView 运行结果
 
 页面显示 Lion、Tiger、Monkey、Dog、Cat 和 Elephant 六条记录，每条记录左侧显示名称、右侧显示对应图片。单击动物后，该行背景变为深红色，同时出现动物名称 Toast 和系统通知。
 
-![listview](doc\img\listview.png)
+![listview](doc/img/listview.png)
 
 #### 3. 自定义 AlertDialog 运行结果
 
 单击“显示登录对话框”按钮后，页面弹出包含 `ANDROID APP` 标题、用户名输入框、密码输入框、`Cancel` 和 `Sign in` 按钮的自定义对话框。
 
-![custom-dialog](doc\img\custom-dialog.png)
+![custom-dialog](doc/img/custom-dialog.png)
 
 #### 4. XML 菜单运行结果
 
 页面标题为 `MenuTest`，正文显示“用于测试的内容”。打开右上角菜单后显示“字体大小”“普通菜单项”和“字体颜色”三个菜单项；子菜单可以改变测试文字大小或颜色。
 
-![xml-menu](doc\img\xml-menu.png)
+![xml-menu](doc/img/xml-menu.png)
 
 #### 5. ActionMode 多选运行结果
 
 直接单击列表项即可进入多选状态，顶部 ActionMode 显示当前选中数量和删除按钮。继续单击可以选中多项，再次单击已选项可取消选择，单击删除按钮可批量删除所有选中项。
 
-![action-mode](doc\img\action-mode.png)
+![action-mode](doc/img/action-mode.png)
 
 #### 6. RecyclerView 运行结果
 
 RecyclerView 页面的列表外观与实验一一致。单击动物后显示名称并将该行背景设置为深红色；打开右上角“新增动物”菜单，可以选择具体动物并将其追加到列表末尾。
 
-![recyclerview](doc\img\recyclerview.png)
+![recyclerview](doc/img/recyclerview.png)
 
 ### 六、问题与解决方法
 
